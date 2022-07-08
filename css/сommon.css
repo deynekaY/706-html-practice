@@ -1,12 +1,21 @@
-/*
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
 
 
-
-
-*/
+/*:root вместо тега html*/
+:root {
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    --text-color: #505155;
+    --border-color: #ccc;
+}
 
 h1 {
-    color: red;
+    color: var(--text-color);
     text-transform: uppercase;
     font-weight: bold;
 }
