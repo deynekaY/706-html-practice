@@ -18,7 +18,7 @@ img {
 /*:root вместо тега html*/
 :root {
     font-size: 18px;
-    font-family: font-family: 'DotGothic16', sans-serif;
+    font-family: 'DotGothic16', sans-serif;
     --text-color: #505155;
     --border-color: #ccc;
 }
