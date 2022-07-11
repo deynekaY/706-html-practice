@@ -1,0 +1,20 @@
+.main-product__lust {
+
+}
+
+.main-product__list .product-card {
+    border: 1px solid gray;
+    padding: 5px;    
+}
+
+@media (min-width: 560px) {
+    .main-product__list {
+        grid-template-columns: repeat(1fr 1fr);
+    }
+}
+
+@media (min-width: 900px) {
+    .main-product__list {
+        grid-template-columns: repeat(1fr 1fr 1fr);
+    }
+}

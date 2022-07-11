@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
 
 * {
     margin: 0;
@@ -17,7 +18,7 @@ img {
 /*:root вместо тега html*/
 :root {
     font-size: 18px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: font-family: 'DotGothic16', sans-serif;
     --text-color: #505155;
     --border-color: #ccc;
 }
@@ -32,4 +33,13 @@ h1 {
 
 .footer h2 {
     color: green;
+}
+
+.header-banner__h1 {
+    color: blue;
+}
+
+.container {
+    max-width: 980px;
+    margin: auto;
 }
